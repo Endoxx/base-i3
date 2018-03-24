@@ -175,10 +175,10 @@ exec --no-startup-id xrandr --output Virtual1 --mode 1280x1024
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id compton
 exec --no-startup-id setxkbmap de nodeadkeys
+exec --no-startup-id polybar mybar
 
-
-gaps inner 5
-gaps outer 5
+gaps inner 6
+gaps outer 3
 
 
 
