@@ -8,10 +8,18 @@
 ## Package Management
 
     sudo Pacman -S --noconfirm git
-    sudo echo [archlinuxfr] >> /etc/pacman.conf
-    sudo echo SigLevel = PackageOptional >> /etc/pacman.conf
-    sudo echo Server = http://repo.archlinux.fr/$arch >> /etc/pacman.conf
+
+#    Work in progress.
+#    sudo echo   >> /etc/pacman.conf
+#    sudo echo [multilib] >> /etc/pacman.conf
+#    sudo echo Include = /etc/pacman.d/mirrorlist >> /etc/pacman.conf
+#    sudo echo   >> /etc/pacman.conf
+#    sudo echo [archlinuxfr] >> /etc/pacman.conf
+#    sudo echo SigLevel = PackageOptional >> /etc/pacman.conf
+#    sudo echo Server = http://repo.archlinux.fr/$arch >> /etc/pacman.conf
+
     sudo pacman -Syyu
+    sudo pacman -S --noconfirm yaourt
 
 ## Get Base git repo
     
