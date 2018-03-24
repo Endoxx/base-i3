@@ -1,7 +1,7 @@
 ## Create Config Directories
 
     mkdir -p $HOME/.config/i3
-    mkdir $HOME/polybar
+    mkdir $HOME/.config/polybar
 
 ## Install Configs
 
