@@ -23,3 +23,8 @@
     sudo pacman -Syyu
     sudo pacman -S --noconfirm yaourt
 
+## Get Base git repo
+
+    cd $HOME/Repos/
+    git clone https://github.com/Endoxx/base-i3.git
+    cd $HOME
