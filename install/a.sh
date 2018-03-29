@@ -9,15 +9,8 @@
 
     sudo pacman -S --noconfirm git
 
-#   Will look into this part later on.
-#    sudo su
-#    sudo echo   >> /etc/pacman.conf
-#    sudo echo [multilib] >> /etc/pacman.conf
-#    sudo echo Include = /etc/pacman.d/mirrorlist >> /etc/pacman.conf
-#    sudo echo   >> /etc/pacman.conf
-#    sudo echo [archlinuxfr] >> /etc/pacman.conf
-#    sudo echo SigLevel = PackageOptional >> /etc/pacman.conf
-#    sudo echo Server = http://repo.archlinux.fr/$arch >> /etc/pacman.conf
+#   Probably working now.
+#    echo -e "\n\n[archlinuxfr]\nSigLevel = PackageOptional\nServer = http://repo.archlinux.fr/\$arch\n" >> /etc/pacman.conf
 #    exit
 
     sudo pacman -Syyu
